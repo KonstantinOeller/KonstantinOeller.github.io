@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+.Element {
+    text-align: center;
+    background-color: rgba(255, 0, 119, 0.637);
+    font-size: 16pt;
+
+    padding: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-left: auto;
+    padding-right: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    border-radius: 10px;
+}
+
+#SteckbriefFotoundKontakt{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Kontakt {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+#liebllingssachen {
+    display: flex;
+    justify-content: space-around;
+
+    color: white;
+
+    text-align: center;
+    background-color: rgba(255, 0, 119, 0.637);
+    font-size: 16pt;
+}
+
+#Lieblingsfilm {
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
