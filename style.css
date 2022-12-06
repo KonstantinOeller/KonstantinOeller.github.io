@@ -140,3 +140,70 @@ audio {
     color: #14141c;
     text-decoration: underline;
 }
+
+video {
+    scale: 2;
+}
+
+@media only screen and (max-width: 900px) {
+    video {
+        scale: 3;
+    }
+
+    #header {
+        font-size: 20pt;
+    }
+    nav a {
+        font-size: 15pt;
+    }
+
+    .Infos {
+        font-size: 12pt;
+    }
+
+    .Infos h2 {
+        font-size: 16pt;
+    }
+
+    .Filmmusik {
+        font-size: 20pt;
+    }
+
+    iframe {
+        scale: 0.5;
+    }
+}
+@media only screen and (max-width: 700px) {
+    body{
+        font-size: 20pt;
+        background-color: green;
+    }
+
+    video {
+        scale: 4;
+    }
+
+    #header {
+        font-size: 15pt;
+    }
+    nav a {
+        font-size: 12pt;
+    }
+
+    .Infos {
+        font-size: 9pt;
+    }
+
+    .Infos h2 {
+        font-size: 14pt;
+    }
+    .Filmmusik{
+        font-size: 15pt;
+    }
+    
+    frame {
+        margin-right: auto;
+        margin-left: auto;
+        scale: 0.2;
+    }
+}
